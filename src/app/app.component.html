@@ -1,0 +1,6 @@
+<h1 text-align:center>LET'S GO WORK !!</h1>
+
+<app-create-toutou></app-create-toutou>
+<div *ngFor="let toutou of toutous">
+    <app-todolist [toutouId]="toutou.id" [toutouActivity]="toutou.activity"></app-todolist>
+</div>

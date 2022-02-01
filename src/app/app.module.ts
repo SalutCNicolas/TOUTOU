@@ -1,0 +1,22 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { TodolistComponent } from './todolist/todolist.component';
+import { CreateToutouComponent } from './create-toutou/create-toutou.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    TodolistComponent,
+    CreateToutouComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
